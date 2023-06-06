@@ -1,0 +1,23 @@
+{
+  "name": "vue-3-vite-tailwind",
+  "version": "1.0.0",
+  "description": "A starter project with Vue + vite + tailwind + prettier",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prettier": "prettier src --check",
+    "prettier:fix": "prettier src --write"
+  },
+  "dependencies": {
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest"
+  }
+}
